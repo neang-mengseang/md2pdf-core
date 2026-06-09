@@ -1,0 +1,53 @@
+{
+  "name": "md2pdf-core",
+  "version": "1.0.0",
+  "description": "Core library for converting Markdown to beautiful PDFs. Supports Mermaid diagrams, KaTeX math, syntax highlighting, tables, and auto-generated Table of Contents.",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pdf",
+    "markdown",
+    "mermaid",
+    "katex",
+    "syntax-highlighting",
+    "library"
+  ],
+  "author": "PDF Generator Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "highlight.js": "^11.11.0",
+    "katex": "^0.16.21",
+    "marked": "^15.0.0",
+    "marked-highlight": "^2.2.0",
+    "mermaid": "^10.9.0",
+    "puppeteer-core": "^23.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/katex": "^0.16.7",
+    "@types/node": "^22.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"pdf-engine.d.ts","sourceRoot":"","sources":["../src/pdf-engine.ts"],"names":[],"mappings":"AAcA,OAAO,KAAK,EAAE,kBAAkB,EAAE,sBAAsB,EAAE,UAAU,EAAE,MAAM,YAAY,CAAC;AAmFzF,wBAAsB,WAAW,CAAC,OAAO,EAAE,kBAAkB,GAAG,OAAO,CAAC,MAAM,CAAC,CAqF9E;AAoBD,wBAAsB,eAAe,CAAC,OAAO,EAAE,sBAAsB,GAAG,OAAO,CAAC,UAAU,CAAC,CA0D1F"}
