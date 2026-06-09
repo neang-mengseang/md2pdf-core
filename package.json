@@ -1,6 +1,6 @@
 {
   "name": "md2pdf-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core library for converting Markdown to beautiful PDFs. Supports Mermaid diagrams, KaTeX math, syntax highlighting, tables, and auto-generated Table of Contents.",
   "main": "dist/index.js",
   "type": "module",
